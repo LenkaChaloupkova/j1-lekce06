@@ -10,6 +10,7 @@ public class Polozka {
     private int mnozstvi;
     private String jednotka;
 
+    // 3 properties:
     public Polozka(String popis, int mnozstvi, String jednotka) {
         this.popis = popis;
         this.mnozstvi = mnozstvi;

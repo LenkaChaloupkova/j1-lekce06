@@ -27,7 +27,10 @@ public class NakupniSeznam {
      * Naplní seznam alespoň 4 položkami.
      */
     private void naplnSeznam() {
-        //TODO
+        seznam.add(new Polozka("jablka", 3, " kg")); // cmd (control) + d > kopíruje celý řádek
+        seznam.add(new Polozka("paprika", 3, " kg"));
+        seznam.add(new Polozka("mléko", 3, " l"));
+        seznam.add(new Polozka("bábovka", 3, " ks"));
     }
 
     /**
@@ -36,7 +39,6 @@ public class NakupniSeznam {
      * @return
      */
     private Polozka ziskejTretiPolozku() {
-        //TODO
         return null;
     }
 
